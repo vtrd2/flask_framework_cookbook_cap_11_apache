@@ -1,0 +1,511 @@
+Requested product not found.
+Requested product not found.
+2021-07-18 22:06:00,507 WARNING: Requested product not found.[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:70]
+2021-07-19 20:52:14,868 ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:54]
+2021-07-19 20:59:53,524 ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:54]
+2021-07-19 20:59:56,304 INFO: Home page with total of 12 products[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:62]
+2021-07-19 21:08:48,003 ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:54]
+2021-07-19 21:08:52,049 INFO: Home page with total of 12 products[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:62]
+2021-07-19 21:09:28,570 ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:54]
+2021-07-19 21:09:32,144 INFO: Home page with total of 12 products[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:62]
+2021-07-19 21:11:09,912 ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:54]
+2021-07-19 21:11:13,104 INFO: Home page with total of 12 products[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:62]
+2021-07-19 21:11:47,232 ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:54]
+2021-07-19 21:11:50,531 INFO: Home page with total of 12 products[in C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py:62]
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 12 products
+Exception on /404/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 26, in decorated_fn
+    return render_template(template, **ctx)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\base.html", line 29, in top-level template code
+    {% block container %}{% endblock %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 4, in block 'container'
+    <h1>{{ _('Welcome to the Catalog Home')}}</h1>
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 168, in _gettext_alias
+    return __context.call(__context.resolve("gettext"), *args, **kwargs)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 174, in gettext
+    rv = __context.call(func, __string)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 109, in <lambda>
+    lambda x: get_translations().ugettext(x),
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 209, in get_translations
+    return get_domain().get_translations()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 554, in get_translations
+    locale = get_locale()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 230, in get_locale
+    locale = Locale.parse(rv)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\babel\core.py", line 268, in parse
+    parts = parse_locale(identifier, sep=sep)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\babel\core.py", line 1094, in parse_locale
+    raise ValueError('expected only letters, got %r' % lang)
+ValueError: expected only letters, got '404'
+Home page with total of 12 products
+Exception on /sla/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 26, in decorated_fn
+    return render_template(template, **ctx)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\base.html", line 29, in top-level template code
+    {% block container %}{% endblock %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 4, in block 'container'
+    <h1>{{ _('Welcome to the Catalog Home')}}</h1>
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 168, in _gettext_alias
+    return __context.call(__context.resolve("gettext"), *args, **kwargs)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 174, in gettext
+    rv = __context.call(func, __string)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 109, in <lambda>
+    lambda x: get_translations().ugettext(x),
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 209, in get_translations
+    return get_domain().get_translations()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 554, in get_translations
+    locale = get_locale()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 230, in get_locale
+    locale = Locale.parse(rv)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\babel\core.py", line 331, in parse
+    raise UnknownLocaleError(input_id)
+babel.core.UnknownLocaleError: unknown locale 'sla'
+Home page with total of 12 products
+Exception on /sla/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 26, in decorated_fn
+    return render_template(template, **ctx)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\base.html", line 29, in top-level template code
+    {% block container %}{% endblock %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 4, in block 'container'
+    <h1>{{ _('Welcome to the Catalog Home')}}</h1>
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 168, in _gettext_alias
+    return __context.call(__context.resolve("gettext"), *args, **kwargs)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 174, in gettext
+    rv = __context.call(func, __string)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 109, in <lambda>
+    lambda x: get_translations().ugettext(x),
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 209, in get_translations
+    return get_domain().get_translations()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 554, in get_translations
+    locale = get_locale()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 230, in get_locale
+    locale = Locale.parse(rv)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\babel\core.py", line 331, in parse
+    raise UnknownLocaleError(input_id)
+babel.core.UnknownLocaleError: unknown locale 'sla'
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 12 products
+Exception on /sla/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 26, in decorated_fn
+    return render_template(template, **ctx)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\base.html", line 29, in top-level template code
+    {% block container %}{% endblock %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 4, in block 'container'
+    <h1>{{ _('Welcome to the Catalog Home')}}</h1>
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 168, in _gettext_alias
+    return __context.call(__context.resolve("gettext"), *args, **kwargs)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 174, in gettext
+    rv = __context.call(func, __string)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 109, in <lambda>
+    lambda x: get_translations().ugettext(x),
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 209, in get_translations
+    return get_domain().get_translations()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 554, in get_translations
+    locale = get_locale()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 226, in get_locale
+    rv = babel.locale_selector_func()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 50, in get_locale
+    return g.get('current_lang', 'en').best_match(ALLOWED_LANGUAGES.keys())
+AttributeError: 'str' object has no attribute 'best_match'
+Home page with total of 12 products
+Exception on /sla/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 26, in decorated_fn
+    return render_template(template, **ctx)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\base.html", line 29, in top-level template code
+    {% block container %}{% endblock %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 4, in block 'container'
+    <h1>{{ _('Welcome to the Catalog Home')}}</h1>
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 168, in _gettext_alias
+    return __context.call(__context.resolve("gettext"), *args, **kwargs)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 174, in gettext
+    rv = __context.call(func, __string)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 109, in <lambda>
+    lambda x: get_translations().ugettext(x),
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 209, in get_translations
+    return get_domain().get_translations()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 554, in get_translations
+    locale = get_locale()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 226, in get_locale
+    rv = babel.locale_selector_func()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 50, in get_locale
+    return g.get('current_lang', 'en').accept_languages.best_match(ALLOWED_LANGUAGES.keys())
+AttributeError: 'str' object has no attribute 'accept_languages'
+Home page with total of 12 products
+Exception on /sla/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 26, in decorated_fn
+    return render_template(template, **ctx)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\base.html", line 29, in top-level template code
+    {% block container %}{% endblock %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 4, in block 'container'
+    <h1>{{ _('Welcome to the Catalog Home')}}</h1>
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 168, in _gettext_alias
+    return __context.call(__context.resolve("gettext"), *args, **kwargs)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 174, in gettext
+    rv = __context.call(func, __string)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 109, in <lambda>
+    lambda x: get_translations().ugettext(x),
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 209, in get_translations
+    return get_domain().get_translations()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 554, in get_translations
+    locale = get_locale()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 226, in get_locale
+    rv = babel.locale_selector_func()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 50, in get_locale
+    default_language = 'en'
+AttributeError: 'str' object has no attribute 'accept_languages'
+Home page with total of 12 products
+Exception on /sla/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 26, in decorated_fn
+    return render_template(template, **ctx)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\base.html", line 29, in top-level template code
+    {% block container %}{% endblock %}
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\templates\home.html", line 4, in block 'container'
+    <h1>{{ _('Welcome to the Catalog Home')}}</h1>
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 168, in _gettext_alias
+    return __context.call(__context.resolve("gettext"), *args, **kwargs)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\jinja2\ext.py", line 174, in gettext
+    rv = __context.call(func, __string)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 109, in <lambda>
+    lambda x: get_translations().ugettext(x),
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 209, in get_translations
+    return get_domain().get_translations()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 554, in get_translations
+    locale = get_locale()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask_babel\__init__.py", line 230, in get_locale
+    locale = Locale.parse(rv)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\babel\core.py", line 331, in parse
+    raise UnknownLocaleError(input_id)
+babel.core.UnknownLocaleError: unknown locale 'default_language'
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Exception on /debug-sentry [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 158, in trigger_error
+    division_by_zero = 1 / 0
+ZeroDivisionError: division by zero
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Exception on /pt/products [GET]
+Traceback (most recent call last):
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_9\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 127, in products
+    products = Product.query.paginate(page, 10)
+  File "C:\Users\Paulo\Desktop\Python\Flask_Framework_Cookbook\cap_10\my_app\catalog\views.py", line 127, in products
+    products = Product.query.paginate(page, 10)
+  File "C:\Users\Paulo\AppData\Local\Programs\Python\Python39\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "C:\Users\Paulo\AppData\Local\Programs\Python\Python39\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 0 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 0 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 0 products
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 0 products
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
+Home page with total of 12 products
